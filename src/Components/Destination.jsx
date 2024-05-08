@@ -3,9 +3,9 @@ import frame from '../assets/img/icons/Frame.svg'
 import vector from '../assets/img/icons/Vector (1).svg'
 import vector3 from '../assets/img/icons/Vector (3).svg'
 import { useDispatch, useSelector } from 'react-redux';
-
 import { setData } from '../assets/redux/counter/actions';
 import { useState } from 'react';
+
 const Destination = () => {
     const [isButtonDisabled, setIsButtonDisabled] = useState(false);
     const {
